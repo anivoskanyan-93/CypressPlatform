@@ -18,11 +18,28 @@ describe('Test Demoqa Webtables section', () => {
     })
 
 
-    it.only('Test add user functionality', () => {
+    it('Test add user functionality', () => {
         cy.visit('https://demoqa.com/checkbox')
         cy.get('#three-node-home').check({force: true})
 
 
     })
+
+    it('Delete first existing user', () => {
+        cy.visit('https://demoqa.com/autimation-practice-form')
+        cy.get('#gender-radio-1').click({force: true})
+
+
+    })
+
+    it.only('Check scroll to command', () => {
+        cy.visit('https://demoqa.com/autimation-practice-form')
+        cy.get('.-pageInfo').siblings('span').
+            find('select').select('100').should('have.value', '100')
+        cy.wait(3000)
+        cy.scrollTo('bottom')
+
+    })
+
 
 });
