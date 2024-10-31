@@ -6,7 +6,7 @@ describe('Cypress Homework 2', () => {
         cy.get('button.search-button').click()
         cy.get('h4.product-name' ).should('contain', 'Brocolli')
         cy.get('input.quantity[value="1"]').should('exist')
-        cy.get('a.increment').click().click()
+        cy.get('a.increment').click({ multiple: true }).click()
         cy.get('input.quantity[value="3"]').should('exist')
         cy.contains('ADD TO CART').click()
         cy.get('.added').should("be.visible")
