@@ -1,5 +1,5 @@
-import {productLocators} from "../Locators/productLocators";
-import {constants} from "../Locators/productLocators";
+import {productLocators} from "../../Locators/productLocators";
+import {constants} from "../../Locators/productLocators";
 
 class ProductPage{
 

@@ -1,6 +1,6 @@
-import LoginForm from "../PageObjects/loginForm";
-import ProfilePage from "../PageObjects/profilePage";
-import Cart from "../PageObjects/cart";
+import LoginForm from "../../Pages/PageObjects/loginForm";
+import ProfilePage from "../../Pages/PageObjects/profilePage";
+import Cart from "../../Pages/PageObjects/cart";
 describe('Test Demoblase', () => {
 
     it('Homework 3', () => {

@@ -1,6 +1,6 @@
 import ProductPage from './ProductPage';
-import CartPage from "../Pages/cartPage";
-import {constants, productLocators} from "../Locators/productLocators";
+import CartPage from "../../Pages/PageObjects/cartPage";
+import {constants, productLocators} from "../../Locators/productLocators";
 
 describe('Test ', () => {
 

@@ -1,4 +1,4 @@
-import {cartLocators} from "../Locators/cartLocators";
+import {cartLocators} from "../../Locators/cartLocators";
 
 
 class CartPage {

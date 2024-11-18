@@ -1,4 +1,4 @@
-import loginPage from "../PageObjects/loginPage";
+import loginPage from "../../Pages/PageObjects/loginPage";
 describe('Test', () => {
 
     it('Test login with valid cred', () => {

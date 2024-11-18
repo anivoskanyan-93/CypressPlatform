@@ -1,4 +1,4 @@
-import ProductPage from "../Pages/productPage";
+import ProductPage from "../../Pages/PageObjects/productPage";
 import {constants} from "../Constants";
 describe('Test ', () => {
 
