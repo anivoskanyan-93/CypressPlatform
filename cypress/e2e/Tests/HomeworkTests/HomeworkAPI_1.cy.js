@@ -1,12 +1,12 @@
 import { faker } from '@faker-js/faker'
-describe('API tests', () => {
+describe('API automation basics', () => {
 
     let token;
     let id;
     const firstName = faker.person.firstName();
     const lastName = faker.person.lastName();
 
-    it('API tests', () => {
+    it('Create Token, Create Booking, Get Booking API tests', () => {
 
         cy.request({
             method: 'POST',
